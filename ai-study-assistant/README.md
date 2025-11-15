@@ -1,16 +1,12 @@
 
 # AI Study Assistant Agent
-
-This project is a simple **AI Study Assistant Agent** designed as a capstone-style project inspired by the 5‑Day AI Agents Intensive (Google x Kaggle).  
+This project is a simple **AI Study Assistant Agent** designed as a capstone-style project inspired by the 5‑Day AI Agents Intensive (Google x Kaggle). By Midhun Manesh.  
 It demonstrates key agent concepts:
 
 - Tool usage (planning, saving notes, searching notes, listing tasks)
 - Lightweight memory using JSON files
 - Simple agent loop that lets a model decide which tool to call
 - Clean Python structure that you can extend or plug into any LLM API
-
-> ⚠️ **Important:** This repo ships with a dummy LLM implementation.  
-> To make it a real AI assistant, you only need to edit `llm.py` and plug in your preferred API (OpenAI, Gemini, etc.).
 
 ---
 
@@ -161,15 +157,9 @@ Where `main.py` calls `run_agent()` in a loop (see the notebook for reference).
 
 ---
 
-## Good for Capstone / Portfolio
 
-This small project is ideal for:
 
-- Kaggle Agent Capstone / intensive follow‑up
-- GitHub portfolio as an “AI Agent” example
-- LinkedIn post describing:
-  - The problem (student productivity)
-  - The solution (tool‑based agent with memory)
-  - Tech stack (Python, LLM, JSON memory)
+This small project is done for:
 
-Feel free to fork, modify, and extend this as you grow your skills 🚀
+- Kaggle Agent Capstone
+- With Love Midhun Manesh.
